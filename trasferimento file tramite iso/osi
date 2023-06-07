@@ -1,0 +1,5 @@
+ Il livello presentazione comprime i dati e invia il messaggio al livello sessione, che apre una sessione per la comunicazione tra il dispositivo del mittente e il server della posta in uscita.
+
+Il messaggio viene inviato al livello trasporto dove i dati sono segmentati, e il livello rete suddivide i segmenti in pacchetti. Quindi i pacchetti sono inviati dal livello rete al livello collegamento dati, dove i pacchetti vengono ulteriormente suddivisi in frame. I frame sono inviati al livello fisico dove i dati sono convertiti in flussi di bit di uno e zero, e trasferiti attraverso il mezzo trasmissivo, come i cavi o le connessioni wireless.
+
+Quando il messaggio raggiunge il destinatario, il processo si inverte.
