@@ -1,0 +1,14 @@
+il livello rete (network layer) è il livello 3 della pila ISO/OSI. Questo livello riceve segmenti dal soprastante livello di trasporto e forma pacchetti che vengono passati al sottostante Livello datalink.
+
+Il compito del livello di rete è la trasmissione logica di pacchetti tra due host
+
+inolt :
+  ovvero ricevere un pacchetto su una porta, immagazzinarlo e ritrasmetterlo su un'altra. Questa funzione è presente in tutti i nodi della rete e può comportare l'utilizzo di protocolli di livello collegamento differenti
+  
+  frammentazione e riassemblaggio :
+  
+   se un pacchetto ricevuto ha una dimensione eccessiva per la rete su cui deve essere trasmesso, il livello di rete lo divide in frammenti e, in maniera complementare, si occupa di riassemblare i frammenti ricevuti al momento della consegna;
+  
+   instradamento (routing) :
+   
+     ovvero determinare il percorso ideale per la trasmissione dei dati attraverso la rete a partire dall'indirizzo IP del destinatario
